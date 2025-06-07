@@ -195,3 +195,60 @@ button,
     width: 10%;
     height: 40px;
 }
+
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+
+    .header-link-text {
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px 0;
+    }
+
+    .main-text {
+        font-size: 32px;
+    }
+
+    .info {
+        padding: 20px;
+        max-width: 90%;
+    }
+
+    .images {
+        flex-direction: column;
+        align-items: center;
+        padding: 0 20px;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    .quote-container {
+        margin: 50px 20px;
+        text-align: center;
+    }
+
+    .quote-name {
+        justify-content: center;
+        width: 100%;
+    }
+
+    .call-to-action {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .call-button {
+        width: 60%;
+    }
+
+    button {
+        width: 60%;
+    }
+}
